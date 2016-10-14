@@ -9,7 +9,7 @@ private Text text;
 
 
 	public void callStaticFunction(){
-		AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"); 
+	//	AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer"); //not used
 		AndroidJavaClass plugin = new AndroidJavaClass("moduletest.test.com.nativeplugin.NativeMethod");
 		plugin.CallStatic("staticFunction");
 	}
